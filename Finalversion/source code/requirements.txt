@@ -1,0 +1,5 @@
+google-genai
+edge-tts
+pygame
+SpeechRecognition
+PyAudio

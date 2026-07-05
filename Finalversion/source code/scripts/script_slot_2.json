@@ -1,0 +1,256 @@
+{
+    "scenes": {
+        "scene_1": {
+            "description": "陽光灑在晨曦村，陳日接到國王的委託。艾拉公主被帶往了遙遠的『寂寞之塔』。陳日準備出發，他的行囊裡除了短劍，還有一罐奶奶做的蜂蜜。",
+            "options": [
+                {
+                    "text": "穿過幽暗森林（危險但近）",
+                    "next_scene": "scene_2"
+                },
+                {
+                    "text": "繞行翡翠平原（安全但遠）",
+                    "next_scene": "scene_3"
+                }
+            ]
+        },
+        "scene_2": {
+            "description": "幽暗森林裡，陳日發現一隻翅膀受傷的小藍鳥在灌木叢中掙扎，後方傳來野獸的低吼。",
+            "options": [
+                {
+                    "text": "停下幫小鳥包紮",
+                    "next_scene": "scene_4"
+                },
+                {
+                    "text": "躲避野獸，繼續前行",
+                    "next_scene": "scene_5"
+                }
+            ]
+        },
+        "scene_3": {
+            "description": "在平原上，陳日遇到一位因馬車輪胎卡住而哭泣的老爺爺。",
+            "options": [
+                {
+                    "text": "運用力氣幫忙推車",
+                    "next_scene": "scene_6"
+                },
+                {
+                    "text": "給予老爺爺一些食物後離開",
+                    "next_scene": "scene_5"
+                }
+            ]
+        },
+        "scene_4": {
+            "description": "小藍鳥竟然是森林精靈的化身！牠恢復後，送給陳日一根能驅散迷霧的羽毛。",
+            "options": [
+                {
+                    "text": "向精靈詢問公主的消息",
+                    "next_scene": "scene_7"
+                },
+                {
+                    "text": "帶著羽毛快速穿過森林",
+                    "next_scene": "scene_8"
+                }
+            ]
+        },
+        "scene_5": {
+            "description": "陳日迷路了，來到了一座古老的許願池旁，池水乾涸，池底躺著一枚生鏽的鑰匙。",
+            "options": [
+                {
+                    "text": "撿起鑰匙",
+                    "next_scene": "scene_9"
+                },
+                {
+                    "text": "在池邊休息祈禱",
+                    "next_scene": "scene_10"
+                }
+            ]
+        },
+        "scene_6": {
+            "description": "老爺爺感激不盡，原來他是退休的皇家地理學家，他給了陳日一張通往塔頂的秘密地圖。",
+            "options": [
+                {
+                    "text": "沿著秘密小徑前進",
+                    "next_scene": "scene_11"
+                },
+                {
+                    "text": "尋找水源補給",
+                    "next_scene": "scene_10"
+                }
+            ]
+        },
+        "scene_7": {
+            "description": "精靈告訴陳日：『巨龍並不可怕，牠只是太久沒人說話了。』這改變了陳日的想法。",
+            "options": [
+                {
+                    "text": "決定準備一份禮物送給巨龍",
+                    "next_scene": "scene_12"
+                },
+                {
+                    "text": "保持警戒前往塔下",
+                    "next_scene": "scene_8"
+                }
+            ]
+        },
+        "scene_8": {
+            "description": "陳日抵達寂寞之塔山腳下，這裡被永恆的寒冬覆蓋。他看見一隻被凍僵的石像鬼。",
+            "options": [
+                {
+                    "text": "分享身上的蜂蜜水幫牠解凍",
+                    "next_scene": "scene_13"
+                },
+                {
+                    "text": "直接攀爬懸崖",
+                    "next_scene": "scene_11"
+                }
+            ]
+        },
+        "scene_9": {
+            "description": "這把鑰匙發出微光，指引陳日來到一扇隱藏在岩壁間的門。",
+            "options": [
+                {
+                    "text": "用鑰匙開門進入",
+                    "next_scene": "scene_14"
+                },
+                {
+                    "text": "擔心是陷阱，繞道而行",
+                    "next_scene": "scene_8"
+                }
+            ]
+        },
+        "scene_10": {
+            "description": "陳日在夢中看見了公主正在為巨龍朗讀詩集，這並非一場單純的綁架。",
+            "options": [
+                {
+                    "text": "帶著理解的心醒來",
+                    "next_scene": "scene_12"
+                },
+                {
+                    "text": "加速趕往塔樓",
+                    "next_scene": "scene_11"
+                }
+            ]
+        },
+        "scene_11": {
+            "description": "懸崖峭壁非常陡峭，陳日的體力逐漸透支，這時上方垂下了一根繩索。",
+            "options": [
+                {
+                    "text": "抓住繩索往上爬",
+                    "next_scene": "scene_15"
+                },
+                {
+                    "text": "靠自己的力量攀登",
+                    "next_scene": "scene_16"
+                }
+            ]
+        },
+        "scene_12": {
+            "description": "陳日在路邊採集了螢光花，編織成一個溫暖的花環，準備作為見面禮。",
+            "options": [
+                {
+                    "text": "帶著花環走入正門",
+                    "next_scene": "scene_17"
+                },
+                {
+                    "text": "從側窗潛入",
+                    "next_scene": "scene_15"
+                }
+            ]
+        },
+        "scene_13": {
+            "description": "石像鬼甦醒了！牠感動地流下砂石淚水，決定載著陳日直接飛往塔頂。",
+            "options": [
+                {
+                    "text": "飛向塔頂陽台",
+                    "next_scene": "scene_18"
+                },
+                {
+                    "text": "飛向守衛室門口",
+                    "next_scene": "scene_17"
+                }
+            ]
+        },
+        "scene_14": {
+            "description": "門後是一條直通塔心的溫泉隧道，陳日溫暖了身體，恢復了精神。",
+            "options": [
+                {
+                    "text": "進入塔心大廳",
+                    "next_scene": "scene_17"
+                },
+                {
+                    "text": "探尋塔底密室",
+                    "next_scene": "scene_16"
+                }
+            ]
+        },
+        "scene_15": {
+            "description": "繩索的另一頭是艾拉公主！她驚訝地看著陳日：『你是來陪我聊天的嗎？』",
+            "options": [
+                {
+                    "text": "告訴她大家都很擔心她",
+                    "next_scene": "scene_19"
+                },
+                {
+                    "text": "詢問巨龍在哪裡",
+                    "next_scene": "scene_18"
+                }
+            ]
+        },
+        "scene_16": {
+            "description": "陳日在密室發現了巨龍的日記，裡面寫滿了孤獨與對飛翔的恐懼。",
+            "options": [
+                {
+                    "text": "帶著同情心去找巨龍",
+                    "next_scene": "scene_18"
+                },
+                {
+                    "text": "將日記帶給公主看",
+                    "next_scene": "scene_15"
+                }
+            ]
+        },
+        "scene_17": {
+            "description": "大廳裡，巨大的紅龍正趴在地上抽泣，因為牠不小心燒壞了公主最喜歡的書。",
+            "options": [
+                {
+                    "text": "拿出蜂蜜安慰巨龍",
+                    "next_scene": "scene_20"
+                },
+                {
+                    "text": "幫巨龍修補書籍",
+                    "next_scene": "scene_19"
+                }
+            ]
+        },
+        "scene_18": {
+            "description": "陳日見到了巨龍。巨龍並非惡獸，只是因為翅膀受傷無法降落，才將公主『請』來做伴。",
+            "options": [
+                {
+                    "text": "提出幫巨龍醫治翅膀",
+                    "next_scene": "scene_20"
+                },
+                {
+                    "text": "與公主商量帶巨龍一起走",
+                    "next_scene": "scene_19"
+                }
+            ]
+        },
+        "scene_19": {
+            "description": "公主露出溫柔的微笑，她解釋自己是自願留下幫巨龍療傷的。陳日的熱心讓她非常感動。",
+            "options": [
+                {
+                    "text": "邀請他們一起回村莊",
+                    "next_scene": "scene_20"
+                }
+            ]
+        },
+        "scene_20": {
+            "description": "陳日帶著公主騎在巨龍背上回到村莊。巨龍成為了守護者，陳日則獲得了『心靈勇者』的勳章。世界因善意而變得明亮。",
+            "options": [
+                {
+                    "text": "故事完結：感受這份溫暖",
+                    "next_scene": "end"
+                }
+            ]
+        }
+    }
+}
