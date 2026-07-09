@@ -1,2 +1,3 @@
 # COMP4913-Capstone-Project-Interactive-Storytelling-for-Elderly-Friendly-RPG-Games
 Story-writing LLM-based agents. The player can input some brief context card and then the story-writing agents will based on player input provide the scene and choices. The player will use choices to affect the story, and based on the choices to provide an ending. Project do different Elderly-Friendly adjustments. Chinese is the game language.
+Demo presentation: https://connectpolyu-my.sharepoint.com/:v:/g/personal/22063545d_connect_polyu_hk/IQBs5uQBZhBbSbDdOKS9j9tyAbBP0eojPievbBzjDr2_RSI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LDbKxq
